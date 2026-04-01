@@ -15,7 +15,7 @@ const port = process.env.PORT || 5000
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://worksphere-1-8lhq.onrender.com",
     credentials:true
 }))
 
